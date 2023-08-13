@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ai-crypto-bot"
+version = "0.1.0"
+description = ""
+authors = ["Cao Tri Do <huycaotrido@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ai_crypto_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alpaca-trade-api = "^1.4.0"
+pycoingecko = "^2.2.0"
+requests = "^2.26.0"
+openai = "^0.27.0"
+snscrape = { git = "https://github.com/JustAnotherArchivist/snscrape.git" }
+pinecone-client = "^2.2.2"
+matplotlib = "^3.7.2"
+tweepy = "^4.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
